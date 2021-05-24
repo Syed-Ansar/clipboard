@@ -1,0 +1,40 @@
+@import "utilities";
+@import "desktop";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+section{
+    padding: 1rem;
+}
+
+// Buttons
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    button{
+        color: #fff;
+        font-family: 'Bai Jamjuree', sans-serif;
+        border: none;
+        padding: 1rem 3rem;
+        border-radius: 1.5rem;
+        
+        
+        &:first-child{
+            background-color: hsl(171, 66%, 44%);
+        }
+        &:last-child{
+            background-color: hsl(233, 100%, 69%);
+        }
+    }
+}
